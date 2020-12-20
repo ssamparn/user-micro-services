@@ -1,0 +1,16 @@
+server:
+  port: 0
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+
+spring:
+  application:
+    name: account-management-micro-service
+  devtools:
+    restart:
+      enabled: true
