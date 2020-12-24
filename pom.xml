@@ -22,6 +22,7 @@
         <module>users-discovery-service</module>
         <module>user-management-service</module>
         <module>account-management-service</module>
+        <module>user-api-gateway</module>
     </modules>
 
 </project>
