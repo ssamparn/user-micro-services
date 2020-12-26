@@ -23,6 +23,7 @@
         <module>user-management-service</module>
         <module>account-management-service</module>
         <module>user-api-gateway</module>
+        <module>users-config-server</module>
     </modules>
 
 </project>

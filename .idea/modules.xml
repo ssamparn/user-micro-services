@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/user-api-gateway/user-api-gateway.iml" filepath="$PROJECT_DIR$/user-api-gateway/user-api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-management-service/user-management-service.iml" filepath="$PROJECT_DIR$/user-management-service/user-management-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-micro-services.iml" filepath="$PROJECT_DIR$/user-micro-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/users-config-server/users-config-server.iml" filepath="$PROJECT_DIR$/users-config-server/users-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/users-discovery-service/users-discovery-service.iml" filepath="$PROJECT_DIR$/users-discovery-service/users-discovery-service.iml" />
     </modules>
   </component>

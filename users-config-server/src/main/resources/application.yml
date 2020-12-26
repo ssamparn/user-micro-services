@@ -1,1 +1,20 @@
+spring:
+  application:
+    name: users-microservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ssamparn/config-repo.git
+          clone-on-start: true
+          skip-ssl-validation: true
+          username: ssamparn
+          password: Moaparna@2603
+          timeout: 5
+          force-pull: true
+          delete-untracked-branches: true
+          refresh-rate: 0
+
+server:
+  port: 8888
 
