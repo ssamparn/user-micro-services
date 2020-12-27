@@ -40,7 +40,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-config</artifactId>
+			<artifactId>spring-cloud-starter-config</artifactId> <!-- spring cloud starter config dependency is not supported in Spring Cloud version 2020.0.0-RC1 -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

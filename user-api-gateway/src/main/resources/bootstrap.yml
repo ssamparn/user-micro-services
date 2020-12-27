@@ -1,9 +1,7 @@
 spring:
   application:
-    name: user-management-micro-service
+    name: user-api-gateway
   cloud:
     config:
       uri: http://localhost:8888
       name: users-microservice-config-server
-  profiles:
-    active: default

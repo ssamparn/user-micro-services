@@ -33,8 +33,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh
-#user:
-#  token:
-#    secret: hfgry463hf746hf57
-#    expiration-time: 864000000
+        include: '*'
+user:
+  token:
+    secret: hfgry463hf746hf57
+    expiration-time: 864000000
