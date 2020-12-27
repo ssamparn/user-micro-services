@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: users-microservice-config-server
+  cloud:
+    config:
+      server:
+        encrypt:
+          plain-text-encrypt: true
+
+## Meant to be used for Asymmetric encryption ##
+
+encrypt:
+  key-store:
+    location: config-server.jks
+    password: my-s70r3-s3cr3t
+    alias: config-server-key
+
+## Meant to be used for Symmetric encryption ##
+
+#encrypt:
+#  key: gfh572ndRyHENX789uhc2603sdcjTGCBIdkjc
+

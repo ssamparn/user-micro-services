@@ -34,6 +34,8 @@ management:
     web:
       exposure:
         include: '*'
+
+## Should be commented as these properties are to be read from config server
 user:
   token:
     secret: hfgry463hf746hf57

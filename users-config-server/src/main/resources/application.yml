@@ -14,11 +14,11 @@ spring:
           force-pull: true
           delete-untracked-branches: true
           refresh-rate: 0
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
 
 server:
   port: 8888

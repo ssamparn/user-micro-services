@@ -11,7 +11,8 @@
 	<groupId>com.microservices</groupId>
 	<artifactId>users-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>users-config-server</name>
+
+	<name>Users Config Server</name>
 	<description>Config Server for Users Microservices</description>
 
 	<properties>
@@ -20,6 +21,10 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bootstrap</artifactId>
+		</dependency> <!--This dependency is needed because of an existing issue in Spring Boot 2.4.0 and Spring Cloud 2020.X.X-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
@@ -32,14 +37,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-rsa</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
