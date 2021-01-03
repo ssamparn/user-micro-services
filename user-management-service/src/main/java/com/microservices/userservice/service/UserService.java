@@ -8,4 +8,6 @@ public interface UserService extends UserDetailsService {
     UserEntity createUser(UserSignUpRequest newUser);
 
     UserEntity getUserDetailsByEmail(String email);
+
+    UserEntity getUserByUserId(String userId);
 }

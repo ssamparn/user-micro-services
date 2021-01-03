@@ -10,6 +10,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import javax.persistence.EntityNotFoundException;
 import java.util.ArrayList;
 import java.util.UUID;
 
@@ -45,6 +46,18 @@ public class UserServiceImpl implements UserService {
         }
 
         return userEntityByEmail;
+    }
+
+    @Override
+    public UserEntity getUserByUserId(String userId) {
+
+        UserEntity entity = usersRepository.findByUserId(userId);
+
+        if (entity == null) {
+            throw new EntityNotFoundException("User not found");
+        }
+
+        return entity;
     }
 
     @Override
