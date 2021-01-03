@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="album-management-service" />
         <module name="account-management-service" />
         <module name="users-config-server" />
         <module name="users-discovery-service" />
@@ -16,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="account-management-service" target="11" />
+      <module name="album-management-service" target="11" />
       <module name="user-api-gateway" target="11" />
       <module name="user-management-service" target="11" />
       <module name="user-micro-services" target="11" />
@@ -26,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="account-management-service" options="-parameters" />
+      <module name="album-management-service" options="-parameters" />
       <module name="user-api-gateway" options="-parameters" />
       <module name="user-management-service" options="-parameters" />
       <module name="users-config-server" options="-parameters" />

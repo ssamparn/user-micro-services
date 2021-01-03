@@ -24,6 +24,7 @@
         <module>account-management-service</module>
         <module>user-api-gateway</module>
         <module>users-config-server</module>
+        <module>album-management-service</module>
     </modules>
 
 </project>
